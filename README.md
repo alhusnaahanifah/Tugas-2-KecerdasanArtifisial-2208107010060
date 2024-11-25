@@ -12,12 +12,12 @@ Dataset yang digunakan dalam proyek ini adalah TrashNet Dataset, yang dapat diak
 Link Dataset : https://github.com/garythung/trashnet/blob/master/data/dataset-resized.zip
 
 ### Keterangan 
-File Tugas2.ipynb merupakan file yang berisi proses seluruh program klasifikasi, termasuk training model.
-File app.py merupakan file UI untuk menjalankan program trash classfication.
-Folder dataset-resized merupakan folder tempat dataset berada. 
+- File Tugas2.ipynb merupakan file yang berisi proses seluruh program klasifikasi, termasuk training model.
+- File app.py merupakan file UI untuk menjalankan program trash classfication.
+- Folder dataset-resized merupakan folder tempat dataset berada. 
 
 ### Notes 
-Setelah beberapa kali mencoba model, model terbaik adalah trashfix_model.h5 
-screenshot plot training model dapat dilihat pada file screenshotprosestraining.jpg (berdasarkan trashfix_model.h5)  
-screenshot hasil akurasi model dapat dilihat pada file screenshotAkurasi.jpg (berdasarkan trashfix_model.h5)  
+- Setelah beberapa kali mencoba model, model terbaik adalah **trashfix_model.h5** 
+- screenshot plot training model dapat dilihat pada file screenshotprosestraining.jpg (berdasarkan trashfix_model.h5)  
+- screenshot hasil akurasi model dapat dilihat pada file screenshotAkurasi.jpg (berdasarkan trashfix_model.h5)  
 
