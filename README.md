@@ -17,7 +17,8 @@ Link Dataset : https://github.com/garythung/trashnet/blob/master/data/dataset-re
 - Folder **dataset-resized** merupakan folder tempat dataset berada. 
 
 ### Notes 
-- Setelah beberapa kali mencoba model, model terbaik adalah **trashfix_model.h5** 
+- Setelah beberapa kali mencoba model, model terbaik adalah **trashfix_model.h5**
+- Trashfix_model.h5 tidak dapat diupload karena model yang terlalu besar. (lebih dari 100 Mb-Tidak dapat diupload di github)
 - Screenshot plot training model dapat dilihat pada file screenshotprosestraining.jpg (berdasarkan trashfix_model.h5)  
 - Screenshot hasil akurasi model dapat dilihat pada file screenshotAkurasi.jpg (berdasarkan trashfix_model.h5)  
 
