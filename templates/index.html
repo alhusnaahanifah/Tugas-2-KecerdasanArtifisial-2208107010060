@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trash Classification</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200..900&family=Passions+Conflict&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header-section">
+        <nav class="navbar">
+            <h1>Trash Classification</h1>
+            <ul class="nav-links">
+                <li><a href="#classification">Trash Classification</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Trash Classification Section -->
+    <section id="classification" class="hero-header">
+        <p>Upload your trash image to classify it into one of these categories:</p>
+
+        <!-- Upload Form -->
+        <div class="upload-section">
+            <form action="/" method="POST" enctype="multipart/form-data">
+                <div>
+                    <input type="file" name="file" required>
+                </div>
+                <div>
+                    <button type="submit">Classify</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Prediction Result -->
+        {% if predicted_class %}
+        <div class="result">
+            <h2>Prediction: {{ predicted_class }}</h2>
+            <img src="{{ image_path }}" alt="Uploaded Image">
+        </div>
+        {% endif %}
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <p style="font-size: 30px;">About</p>
+        <p>
+            This application helps in trash classification, supporting sustainability efforts by segregating waste
+            into predefined categories. Proper classification enables efficient recycling and reduces environmental harm.
+        </p>
+        <p>Categories include:</p>
+        <ul>
+            <li>Cardboard</li>
+            <li>Glass</li>
+            <li>Metal</li>
+            <li>Paper</li>
+            <li>Plastic</li>
+            <li>Trash</li>
+        </ul>
+        <p> Develop By:  </p>
+        <div class="all-imgs">
+            <img src="/static/Alhusna Hanifah.jpeg" alt="Developer">
+        </div>
+        <p>Alhusna Hanifah</p>
+    </section>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
