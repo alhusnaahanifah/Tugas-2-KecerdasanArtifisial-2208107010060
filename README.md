@@ -5,6 +5,7 @@
 
 Trash Classification menggunakan CNN adalah sistem berbasis deep learning untuk mengklasifikasikan sampah secara otomatis ke dalam enam kategori: cardboard, glass, metal, paper, plastic, dan trash. Sistem ini memanfaatkan model Convolutional Neural Network (CNN) untuk mengenali gambar sampah yang diunggah oleh pengguna melalui antarmuka berbasis web. Dengan pendekatan ini, pengguna dapat mengelola sampah dengan lebih efisien dan akurat, sekaligus meningkatkan kesadaran akan pentingnya pemilahan sampah untuk mendukung daur ulang dan keberlanjutan lingkungan.
 
+![image](https://github.com/user-attachments/assets/976d7460-5b9c-42aa-a136-6924448b2013)
 
 ### Dataset
 Dataset yang digunakan dalam proyek ini adalah TrashNet Dataset, yang dapat diakses melalui repositori GitHub: TrashNet Dataset. Dataset ini dirancang untuk mengembangkan model klasifikasi sampah berdasarkan kategori yang umum ditemukan. Dataset memiliki ketidakseimbangan data, dengan jumlah gambar kategori Trash lebih sedikit dibanding kategori lainnya.4
